@@ -31,7 +31,7 @@
     <div class="navbar-container">
         <a href="${site_url()}" class="navbar-logo">
             #if(theme_option('logo_url') == "")
-            <img src="${theme_url('/static/img/logo.png')}" alt="${site_title()}"/>
+            <h2>${site_title()}</h2>
             #else
             <img src="${theme_option('logo_url')}" alt="${site_title()}"/>
             #end
